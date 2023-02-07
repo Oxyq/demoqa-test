@@ -2,3 +2,23 @@ plugins{
 
     id 'java-library'
 }
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies{
+
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter:5.9.2'
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
