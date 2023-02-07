@@ -20,11 +20,11 @@ public class ExampleJunit5Test {
 
     @Test
     void firstTest0(){
-        System.out.println("    This is  @Test0 ");
+        System.out.println("    выполняется тест  @Test0 ");
     }
     @Test
     void firstTest1(){
-        System.out.println("    This is  @Test1 ");
+        System.out.println("    выполняется тест   @Test1 ");
     }
 
 
